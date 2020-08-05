@@ -29,6 +29,7 @@ public class testA {
 	@Test
 	public void AtestA() {
 		test.log(Status.INFO, "Starting the test");
+		test.log(Status.PASS, "testPassed");
 		
 	}
 }

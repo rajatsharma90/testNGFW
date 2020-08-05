@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Suite" duration-ms="0" started-at="2020-08-05T18:28:29 EDT" finished-at="2020-08-05T18:28:29 EDT">
     <groups>
     </groups>
@@ -92,6 +93,82 @@
           </reporter-output>
         </test-method> <!-- BtestB -->
         <test-method status="PASS" signature="quit()[pri:0, instance:suiteB.testB@67205a84]" name="quit" is-config="true" duration-ms="30" started-at="2020-08-05T18:27:34 EDT" finished-at="2020-08-05T18:27:34 EDT">
+=======
+  <suite name="Suite" duration-ms="0" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Suite C" duration-ms="37" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+    <groups>
+    </groups>
+    <test name="testC" duration-ms="18" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+      <class name="suiteC.testC">
+        <test-method status="PASS" signature="CtestC()[pri:0, instance:suiteC.testC@3fd7a715]" name="CtestC" duration-ms="2" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtestC -->
+        <test-method status="PASS" signature="init()[pri:0, instance:suiteC.testC@3fd7a715]" name="init" is-config="true" duration-ms="0" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteC.testC@3fd7a715]" name="quit" is-config="true" duration-ms="12" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteC.testC -->
+    </test> <!-- testC -->
+    <test name="CCtest" duration-ms="15" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+      <class name="suiteC.testCC">
+        <test-method status="PASS" signature="init()[pri:0, instance:suiteC.testCC@64729b1e]" name="init" is-config="true" duration-ms="1" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="CtestCC()[pri:0, instance:suiteC.testCC@64729b1e]" name="CtestCC" duration-ms="1" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtestCC -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteC.testCC@64729b1e]" name="quit" is-config="true" duration-ms="11" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteC.testCC -->
+    </test> <!-- CCtest -->
+  </suite> <!-- Suite C -->
+  <suite name="SuiteA" duration-ms="385" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+    <groups>
+    </groups>
+    <test name="testA" duration-ms="385" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+      <class name="suiteA.testA">
+        <test-method status="PASS" signature="init()[pri:0, instance:suiteA.testA@65e2dbf3]" name="init" is-config="true" duration-ms="95" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="AtestA()[pri:0, instance:suiteA.testA@65e2dbf3]" name="AtestA" duration-ms="6" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AtestA -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteA.testA@65e2dbf3]" name="quit" is-config="true" duration-ms="257" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteA.testA -->
+    </test> <!-- testA -->
+  </suite> <!-- SuiteA -->
+  <suite name="SuiteB" duration-ms="34" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+    <groups>
+    </groups>
+    <test name="testB" duration-ms="34" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+      <class name="suiteB.testB">
+        <test-method status="PASS" signature="init()[pri:0, instance:suiteB.testB@9660f4e]" name="init" is-config="true" duration-ms="0" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="BtestB()[pri:0, instance:suiteB.testB@9660f4e]" name="BtestB" duration-ms="2" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BtestB -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteB.testB@9660f4e]" name="quit" is-config="true" duration-ms="26" started-at="2020-08-05T18:27:23 EDT" finished-at="2020-08-05T18:27:23 EDT">
+>>>>>>> dad426847fe861d6abd5f4d92feed9ca89c8dd20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

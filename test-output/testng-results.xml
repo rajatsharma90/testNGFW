@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2020-08-05T17:59:33 EDT" finished-at="2020-08-05T17:59:33 EDT">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="680" started-at="2020-08-05T17:58:36 EDT" finished-at="2020-08-05T17:58:37 EDT">
+    <groups>
+    </groups>
+    <test name="testA" duration-ms="680" started-at="2020-08-05T17:58:36 EDT" finished-at="2020-08-05T17:58:37 EDT">
+      <class name="suiteA.testA">
+        <test-method status="PASS" signature="init()[pri:0, instance:suiteA.testA@887af79]" name="init" is-config="true" duration-ms="155" started-at="2020-08-05T17:58:36 EDT" finished-at="2020-08-05T17:58:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="AtestA()[pri:0, instance:suiteA.testA@887af79]" name="AtestA" duration-ms="11" started-at="2020-08-05T17:58:36 EDT" finished-at="2020-08-05T17:58:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AtestA -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteA.testA@887af79]" name="quit" is-config="true" duration-ms="467" started-at="2020-08-05T17:58:36 EDT" finished-at="2020-08-05T17:58:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteA.testA -->
+    </test> <!-- testA -->
+  </suite> <!-- Suite (0) -->
+  <suite name="Suite C" duration-ms="10269" started-at="2020-08-05T17:58:57 EDT" finished-at="2020-08-05T17:59:07 EDT">
+    <groups>
+    </groups>
+    <test name="testC" duration-ms="159" started-at="2020-08-05T17:58:57 EDT" finished-at="2020-08-05T17:58:57 EDT">
+      <class name="suiteC.testC">
+        <test-method status="PASS" signature="init()[pri:0, instance:suiteC.testC@51cdd8a]" name="init" is-config="true" duration-ms="1" started-at="2020-08-05T17:58:57 EDT" finished-at="2020-08-05T17:58:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="CtestC()[pri:0, instance:suiteC.testC@51cdd8a]" name="CtestC" duration-ms="4" started-at="2020-08-05T17:58:57 EDT" finished-at="2020-08-05T17:58:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtestC -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteC.testC@51cdd8a]" name="quit" is-config="true" duration-ms="144" started-at="2020-08-05T17:58:57 EDT" finished-at="2020-08-05T17:58:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteC.testC -->
+    </test> <!-- testC -->
+    <test name="CCtest" duration-ms="52" started-at="2020-08-05T17:59:07 EDT" finished-at="2020-08-05T17:59:07 EDT">
+      <class name="suiteC.testCC">
+        <test-method status="PASS" signature="CtestCC()[pri:0, instance:suiteC.testCC@184f6be2]" name="CtestCC" duration-ms="3" started-at="2020-08-05T17:59:07 EDT" finished-at="2020-08-05T17:59:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtestCC -->
+        <test-method status="PASS" signature="init()[pri:0, instance:suiteC.testCC@184f6be2]" name="init" is-config="true" duration-ms="0" started-at="2020-08-05T17:59:07 EDT" finished-at="2020-08-05T17:59:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteC.testCC@184f6be2]" name="quit" is-config="true" duration-ms="46" started-at="2020-08-05T17:59:07 EDT" finished-at="2020-08-05T17:59:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteC.testCC -->
+    </test> <!-- CCtest -->
+  </suite> <!-- Suite C -->
+  <suite name="SuiteB" duration-ms="178" started-at="2020-08-05T17:58:47 EDT" finished-at="2020-08-05T17:58:47 EDT">
+    <groups>
+    </groups>
+    <test name="testB" duration-ms="178" started-at="2020-08-05T17:58:47 EDT" finished-at="2020-08-05T17:58:47 EDT">
+      <class name="suiteB.testB">
+        <test-method status="PASS" signature="init()[pri:0, instance:suiteB.testB@67205a84]" name="init" is-config="true" duration-ms="69" started-at="2020-08-05T17:58:47 EDT" finished-at="2020-08-05T17:58:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="BtestB()[pri:0, instance:suiteB.testB@67205a84]" name="BtestB" duration-ms="3" started-at="2020-08-05T17:58:47 EDT" finished-at="2020-08-05T17:58:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BtestB -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteB.testB@67205a84]" name="quit" is-config="true" duration-ms="92" started-at="2020-08-05T17:58:47 EDT" finished-at="2020-08-05T17:58:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteB.testB -->
+    </test> <!-- testB -->
+  </suite> <!-- SuiteB -->
+</testng-results>

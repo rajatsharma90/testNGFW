@@ -9,12 +9,13 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentManager {
 	static ExtentReports report;
-	Date d=new Date();
-	String folderName=d.toString().replace(" ", "_").replace(":", "_");
 	
-	public ExtentReports getReport() {
+	
+	public static ExtentReports getReport() {
 		if(report==null) {
 			report=new ExtentReports();
+			Date d=new Date();
+			String folderName=d.toString().replace(" ", "_").replace(":", "_");
 			String reportFolderpath=System.getProperty("user.dir")+"/report/"+folderName;
 			String screenShotfolderPath=reportFolderpath+"/Screenshots/";
 			File f= new File(screenShotfolderPath);

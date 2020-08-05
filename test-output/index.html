@@ -254,7 +254,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -263,6 +263,11 @@
                       <a href="#" panel-name="suite-SuiteB" class="show-methods passed suite-SuiteB"> (show)</a> <!-- show-methods passed suite-SuiteB -->
                     </span>
                     <div class="method-list-content passed suite-SuiteB">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteB" title="suiteB.testBB" hash-for-method="BBtestBB">BBtestBB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-SuiteB" title="suiteB.testB" hash-for-method="BtestB">BtestB</a> <!-- method navigator-link -->
@@ -342,6 +347,21 @@
                   <a name="BtestB">
                   </a> <!-- BtestB -->
                   <span class="method-name">BtestB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteB-class-passed -->
+          <div class="suite-SuiteB-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">suiteB.testBB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BBtestBB">
+                  </a> <!-- BBtestBB -->
+                  <span class="method-name">BBtestBB</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -559,12 +579,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AtestA')
 data.setCell(0, 2, 'suiteA.testA')
-data.setCell(0, 3, 11);
+data.setCell(0, 3, 10);
 window.suiteTableData['Suite__0_']= { tableData: data, tableDiv: 'times-div-Suite__0_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 680 ms</span>
+              <span class="suite-total-time">Total running time: 559 ms</span>
               <div id="times-div-Suite__0_">
               </div> <!-- times-div-Suite__0_ -->
             </div> <!-- times-div -->
@@ -588,16 +608,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CtestC')
 data.setCell(0, 2, 'suiteC.testC')
-data.setCell(0, 3, 4);
+data.setCell(0, 3, 2);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'CtestCC')
 data.setCell(1, 2, 'suiteC.testCC')
-data.setCell(1, 3, 3);
+data.setCell(1, 3, 2);
 window.suiteTableData['Suite_C']= { tableData: data, tableDiv: 'times-div-Suite_C'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 ms</span>
+              <span class="suite-total-time">Total running time: 4 ms</span>
               <div id="times-div-Suite_C">
               </div> <!-- times-div-Suite_C -->
             </div> <!-- times-div -->
@@ -617,16 +637,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'BtestB')
-data.setCell(0, 2, 'suiteB.testB')
-data.setCell(0, 3, 3);
+data.setCell(0, 1, 'BBtestBB')
+data.setCell(0, 2, 'suiteB.testBB')
+data.setCell(0, 3, 5);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BtestB')
+data.setCell(1, 2, 'suiteB.testB')
+data.setCell(1, 3, 3);
 window.suiteTableData['SuiteB']= { tableData: data, tableDiv: 'times-div-SuiteB'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 178 ms</span>
+              <span class="suite-total-time">Total running time: 57 ms</span>
               <div id="times-div-SuiteB">
               </div> <!-- times-div-SuiteB -->
             </div> <!-- times-div -->
@@ -718,28 +742,28 @@ return data;
               <div class="chronological-class-name">suiteA.testAA</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">AAtestAA</span>
-                <span class="method-start">155 ms</span>
+                <span class="method-start">146 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">suiteA.testA</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">AtestA</span>
-                <span class="method-start">155 ms</span>
+                <span class="method-start">146 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">suiteA.testAA</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">169 ms</span>
+                <span class="method-start">160 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">suiteA.testA</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">172 ms</span>
+                <span class="method-start">162 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -756,26 +780,26 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CtestC</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">8 ms</span>
+                <span class="method-start">7 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">suiteC.testCC</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">10212 ms</span>
+                <span class="method-start">10075 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CtestCC</span>
-                <span class="method-start">10212 ms</span>
+                <span class="method-start">10077 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">10216 ms</span>
+                <span class="method-start">10081 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -790,31 +814,34 @@ return data;
                 <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BtestB</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">suiteB.testBB</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">7 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">BBtestBB</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">4 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">suiteB.testB</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">suiteB.testBB</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">BtestB</span>
-                <span class="method-start">69 ms</span>
+                <span class="method-name">BBtestBB</span>
+                <span class="method-start">8 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">74 ms</span>
+                <span class="method-start">15 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

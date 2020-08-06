@@ -20,6 +20,7 @@ public class testA extends TestBase  {
 		
 		log("Starting the browsser", "info");
 		log("Test passed","Pass");
+		System.out.println("Hello");
 		
 		
 	}

@@ -4,30 +4,38 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+
 
 public class listener implements ITestListener {
 
 	@Override
 	public void onTestStart(ITestResult result) {
-	System.out.println("Test Started is"+result.getName());
+	System.out.println("Test Started is "+result.getName());
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onTestSuccess(result);
+		System.out.println(result.getName()+" Passed");
+		ExtentTest test=(ExtentTest)result.getAttribute("reporter");
+		test.log(Status.PASS, "Test passed and logged in report");
+
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onTestFailure(result);
+		System.out.println(result.getName()+" Failed");
+		ExtentTest test=(ExtentTest)result.getAttribute("reporter");
+		test.log(Status.FAIL, "Test Failed and logged in report");
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onTestSkipped(result);
+		System.out.println(result.getName()+" Skipped");
+		ExtentTest test=(ExtentTest)result.getAttribute("reporter");
+		test.log(Status.SKIP, "Test Skipped and logged in report");
+
 	}
 
 	@Override

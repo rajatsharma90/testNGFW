@@ -20,6 +20,7 @@ public class TestBase {
 		report=ExtentManager.getReport();
 		//System.out.println(result.getMethod().getMethodName().toUpperCase());
 		test=report.createTest(result.getMethod().getMethodName().toUpperCase());
+		result.setAttribute("reporter", test);
 	}
 	
 	@AfterMethod

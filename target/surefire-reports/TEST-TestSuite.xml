@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.776" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.797" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/rajatsharma/eclipse-workspace/testNGFWK/target/surefire/surefirebooter12570842597818702112.jar /Users/rajatsharma/eclipse-workspace/testNGFWK/target/surefire 2020-08-05T18-01-05_484-jvmRun1 surefire12198899859022283876tmp surefire_04487929062493918123tmp"/>
+    <property name="sun.java.command" value="/Users/rajatsharma/eclipse-workspace/testNGFWK/target/surefire/surefirebooter2511165743195073696.jar /Users/rajatsharma/eclipse-workspace/testNGFWK/target/surefire 2020-08-05T22-00-37_837-jvmRun1 surefire2193583363722648838tmp surefire_01387303107743769773tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/rajatsharma/eclipse-workspace/testNGFWK/target/test-classes:/Users/rajatsharma/eclipse-workspace/testNGFWK/target/classes:/Users/rajatsharma/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/rajatsharma/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/rajatsharma/.m2/repository/com/aventstack/extentreports/4.1.5/extentreports-4.1.5.jar:/Users/rajatsharma/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/rajatsharma/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/rajatsharma/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/rajatsharma/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rajatsharma/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/rajatsharma/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/rajatsharma/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/rajatsharma/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/rajatsharma/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/rajatsharma/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/rajatsharma/eclipse-workspace/testNGFWK/target/surefire/surefirebooter12570842597818702112.jar"/>
+    <property name="surefire.real.class.path" value="/Users/rajatsharma/eclipse-workspace/testNGFWK/target/surefire/surefirebooter2511165743195073696.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
@@ -54,10 +54,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="BBtestBB" classname="suiteB.testBB" time="0.007"/>
-  <testcase name="BtestB" classname="suiteB.testB" time="0.008"/>
-  <testcase name="CtestC" classname="suiteC.testC" time="0.008"/>
+  <testcase name="BBtestBB" classname="suiteB.testBB" time="0.006"/>
+  <testcase name="BtestB" classname="suiteB.testB" time="0.007"/>
   <testcase name="AtestA" classname="suiteA.testA" time="0.008"/>
-  <testcase name="AAtestAA" classname="suiteA.testAA" time="0.009"/>
+  <testcase name="CtestC" classname="suiteC.testC" time="0.002"/>
   <testcase name="CtestCC" classname="suiteC.testCC" time="0.001"/>
+  <testcase name="AAtestAA" classname="suiteA.testAA" time="0.001"/>
 </testsuite>

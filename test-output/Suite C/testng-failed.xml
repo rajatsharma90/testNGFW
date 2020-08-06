@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite C]">
+  <listeners>
+    <listener class-name="Listeners.listener"/>
+  </listeners>
   <test thread-count="5" name="testC(failed)">
     <classes>
       <class name="suiteC.testC">
         <methods>
-          <include name="init"/>
-          <include name="CtestC"/>
           <include name="quit"/>
+          <include name="CtestC"/>
+          <include name="init"/>
         </methods>
       </class> <!-- suiteC.testC -->
     </classes>
@@ -16,8 +19,8 @@
     <classes>
       <class name="suiteC.testCC">
         <methods>
-          <include name="init"/>
           <include name="quit"/>
+          <include name="init"/>
           <include name="CtestCC"/>
         </methods>
       </class> <!-- suiteC.testCC -->

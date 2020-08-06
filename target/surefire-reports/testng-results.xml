@@ -2,96 +2,131 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-05T18:01:06 EDT" name="Suite" finished-at="2020-08-05T18:01:07 EDT" duration-ms="1108">
+  <suite started-at="2020-08-05T22:00:39 EDT" name="Suite C" finished-at="2020-08-05T22:00:45 EDT" duration-ms="6250">
     <groups>
     </groups>
-    <test started-at="2020-08-05T18:01:06 EDT" name="testA" finished-at="2020-08-05T18:01:07 EDT" duration-ms="1108">
-      <class name="suiteA.testA">
-        <test-method is-config="true" signature="init()[pri:0, instance:suiteA.testA@17776a8]" started-at="2020-08-05T18:01:06 EDT" name="init" finished-at="2020-08-05T18:01:07 EDT" duration-ms="301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="AtestA()[pri:0, instance:suiteA.testA@17776a8]" started-at="2020-08-05T18:01:07 EDT" name="AtestA" finished-at="2020-08-05T18:01:07 EDT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AtestA -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:suiteA.testA@17776a8]" started-at="2020-08-05T18:01:07 EDT" name="quit" finished-at="2020-08-05T18:01:07 EDT" duration-ms="739" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- suiteA.testA -->
-    </test> <!-- testA -->
-  </suite> <!-- Suite -->
-  <suite started-at="2020-08-05T18:01:06 EDT" name="Suite C" finished-at="2020-08-05T18:01:12 EDT" duration-ms="6236">
-    <groups>
-    </groups>
-    <test started-at="2020-08-05T18:01:06 EDT" name="testC" finished-at="2020-08-05T18:01:07 EDT" duration-ms="1157">
+    <test started-at="2020-08-05T22:00:39 EDT" name="testC" finished-at="2020-08-05T22:00:40 EDT" duration-ms="1114">
       <class name="suiteC.testC">
-        <test-method is-config="true" signature="init()[pri:0, instance:suiteC.testC@62bd765]" started-at="2020-08-05T18:01:06 EDT" name="init" finished-at="2020-08-05T18:01:07 EDT" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:suiteC.testC@dd3b207]" started-at="2020-08-05T22:00:39 EDT" name="init" finished-at="2020-08-05T22:00:39 EDT" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=testC.CtestC()[pri:0, instance:suiteC.testC@dd3b207] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="CtestC()[pri:0, instance:suiteC.testC@62bd765]" started-at="2020-08-05T18:01:07 EDT" name="CtestC" finished-at="2020-08-05T18:01:07 EDT" duration-ms="6" status="PASS">
+        <test-method signature="CtestC()[pri:0, instance:suiteC.testC@dd3b207]" started-at="2020-08-05T22:00:39 EDT" name="CtestC" finished-at="2020-08-05T22:00:39 EDT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CtestC -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:suiteC.testC@62bd765]" started-at="2020-08-05T18:01:07 EDT" name="quit" finished-at="2020-08-05T18:01:07 EDT" duration-ms="781" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteC.testC@dd3b207]" started-at="2020-08-05T22:00:39 EDT" name="quit" finished-at="2020-08-05T22:00:40 EDT" duration-ms="751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- suiteC.testC -->
     </test> <!-- testC -->
-    <test started-at="2020-08-05T18:01:12 EDT" name="CCtest" finished-at="2020-08-05T18:01:12 EDT" duration-ms="66">
+    <test started-at="2020-08-05T22:00:45 EDT" name="CCtest" finished-at="2020-08-05T22:00:45 EDT" duration-ms="95">
       <class name="suiteC.testCC">
-        <test-method is-config="true" signature="init()[pri:0, instance:suiteC.testCC@ba8d91c]" started-at="2020-08-05T18:01:12 EDT" name="init" finished-at="2020-08-05T18:01:12 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:suiteC.testCC@709ba3fb]" started-at="2020-08-05T22:00:45 EDT" name="init" finished-at="2020-08-05T22:00:45 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=testCC.CtestCC()[pri:0, instance:suiteC.testCC@709ba3fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="CtestCC()[pri:0, instance:suiteC.testCC@ba8d91c]" started-at="2020-08-05T18:01:12 EDT" name="CtestCC" finished-at="2020-08-05T18:01:12 EDT" duration-ms="0" status="PASS">
+        <test-method signature="CtestCC()[pri:0, instance:suiteC.testCC@709ba3fb]" started-at="2020-08-05T22:00:45 EDT" name="CtestCC" finished-at="2020-08-05T22:00:45 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CtestCC -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:suiteC.testCC@ba8d91c]" started-at="2020-08-05T18:01:12 EDT" name="quit" finished-at="2020-08-05T18:01:12 EDT" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteC.testCC@709ba3fb]" started-at="2020-08-05T22:00:45 EDT" name="quit" finished-at="2020-08-05T22:00:45 EDT" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- suiteC.testCC -->
     </test> <!-- CCtest -->
   </suite> <!-- Suite C -->
-  <suite started-at="2020-08-05T18:01:06 EDT" name="SuiteB" finished-at="2020-08-05T18:01:07 EDT" duration-ms="1133">
+  <suite started-at="2020-08-05T22:00:39 EDT" name="SuiteA" finished-at="2020-08-05T22:00:45 EDT" duration-ms="6281">
     <groups>
     </groups>
-    <test started-at="2020-08-05T18:01:06 EDT" name="testB" finished-at="2020-08-05T18:01:07 EDT" duration-ms="1036">
-      <class name="suiteB.testB">
-        <test-method is-config="true" signature="init()[pri:0, instance:suiteB.testB@27c6e487]" started-at="2020-08-05T18:01:06 EDT" name="init" finished-at="2020-08-05T18:01:07 EDT" duration-ms="301" status="PASS">
+    <test started-at="2020-08-05T22:00:39 EDT" name="testA" finished-at="2020-08-05T22:00:40 EDT" duration-ms="1153">
+      <class name="suiteA.testA">
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:suiteA.testA@2bbaf4f0]" started-at="2020-08-05T22:00:39 EDT" name="init" finished-at="2020-08-05T22:00:39 EDT" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=testA.AtestA()[pri:0, instance:suiteA.testA@2bbaf4f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="BtestB()[pri:0, instance:suiteB.testB@27c6e487]" started-at="2020-08-05T18:01:07 EDT" name="BtestB" finished-at="2020-08-05T18:01:07 EDT" duration-ms="6" status="PASS">
+        <test-method signature="AtestA()[pri:0, instance:suiteA.testA@2bbaf4f0]" started-at="2020-08-05T22:00:39 EDT" name="AtestA" finished-at="2020-08-05T22:00:39 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AtestA -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteA.testA@2bbaf4f0]" started-at="2020-08-05T22:00:39 EDT" name="quit" finished-at="2020-08-05T22:00:40 EDT" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteA.testA -->
+    </test> <!-- testA -->
+    <test started-at="2020-08-05T22:00:45 EDT" name="AAtest" finished-at="2020-08-05T22:00:45 EDT" duration-ms="115">
+      <class name="suiteA.testAA">
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:suiteA.testAA@49e202ad]" started-at="2020-08-05T22:00:45 EDT" name="init" finished-at="2020-08-05T22:00:45 EDT" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=testAA.AAtestAA()[pri:0, instance:suiteA.testAA@49e202ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteA.testAA@49e202ad]" started-at="2020-08-05T22:00:45 EDT" name="quit" finished-at="2020-08-05T22:00:45 EDT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method signature="AAtestAA()[pri:0, instance:suiteA.testAA@49e202ad]" started-at="2020-08-05T22:00:45 EDT" name="AAtestAA" finished-at="2020-08-05T22:00:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAtestAA -->
+      </class> <!-- suiteA.testAA -->
+    </test> <!-- AAtest -->
+  </suite> <!-- SuiteA -->
+  <suite started-at="2020-08-05T22:00:39 EDT" name="SuiteB" finished-at="2020-08-05T22:00:40 EDT" duration-ms="1189">
+    <groups>
+    </groups>
+    <test started-at="2020-08-05T22:00:39 EDT" name="testB" finished-at="2020-08-05T22:00:40 EDT" duration-ms="1189">
+      <class name="suiteB.testB">
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:suiteB.testB@38364841]" started-at="2020-08-05T22:00:39 EDT" name="init" finished-at="2020-08-05T22:00:39 EDT" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=testB.BtestB()[pri:0, instance:suiteB.testB@38364841] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="BtestB()[pri:0, instance:suiteB.testB@38364841]" started-at="2020-08-05T22:00:39 EDT" name="BtestB" finished-at="2020-08-05T22:00:39 EDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BtestB -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:suiteB.testB@27c6e487]" started-at="2020-08-05T18:01:07 EDT" name="quit" finished-at="2020-08-05T18:01:07 EDT" duration-ms="667" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteB.testB@38364841]" started-at="2020-08-05T22:00:39 EDT" name="quit" finished-at="2020-08-05T22:00:40 EDT" duration-ms="839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- suiteB.testB -->
     </test> <!-- testB -->
-    <test started-at="2020-08-05T18:01:06 EDT" name="testBB" finished-at="2020-08-05T18:01:07 EDT" duration-ms="1118">
-      <class name="suiteB.testBB">
-        <test-method is-config="true" signature="init()[pri:0, instance:suiteB.testBB@473b46c3]" started-at="2020-08-05T18:01:06 EDT" name="init" finished-at="2020-08-05T18:01:07 EDT" duration-ms="301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="BBtestBB()[pri:0, instance:suiteB.testBB@473b46c3]" started-at="2020-08-05T18:01:07 EDT" name="BBtestBB" finished-at="2020-08-05T18:01:07 EDT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BBtestBB -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:suiteB.testBB@473b46c3]" started-at="2020-08-05T18:01:07 EDT" name="quit" finished-at="2020-08-05T18:01:07 EDT" duration-ms="765" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- suiteB.testBB -->
-    </test> <!-- testBB -->
   </suite> <!-- SuiteB -->
 </testng-results>

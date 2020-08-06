@@ -10,24 +10,15 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 import reports.ExtentManager;
+import testBase.TestBase;
 
-public class testBB {
-	ExtentReports report;
-	ExtentTest test;
-	@BeforeMethod
-	public void init() {
-		report=ExtentManager.getReport();
-		test=report.createTest("testBB");
-	}
-	
-	@AfterMethod
-	public void quit() {
-		report.flush();
-	}
+public class testBB extends TestBase {
+
 
 	@Test
 	public void BBtestBB() {
-		test.log(Status.INFO, "Starting the test");
+		log("Starting the browsser", "info");
+		log("Test passed","Pass");
 
 	}
 }

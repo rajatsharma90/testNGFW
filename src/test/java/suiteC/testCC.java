@@ -11,24 +11,15 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 import reports.ExtentManager;
+import testBase.TestBase;
 
-public class testCC {
-	ExtentReports report;
-	ExtentTest test;
-	@BeforeMethod
-	public void init() {
-		report=ExtentManager.getReport();
-		test=report.createTest("CCtest");
-	}
-	
-	@AfterMethod
-	public void quit() {
-		report.flush();
-	}
+public class testCC extends TestBase {
+
 
 	@Test
 	public void CtestCC() {
-		test.log(Status.INFO, "Starting the test");
+		log("Starting the browsser", "info");
+		log("Test failed","fail");
 
 	}
 }

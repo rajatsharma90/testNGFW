@@ -16,8 +16,8 @@ public class testC extends TestBase {
 
 	@Test
 	public void CtestC() {
-		log("Starting the browsser", "info");
-		log("Test passed","Pass");
+		log("Starting the browsser");
+		log("Test passed");
 
 	}
 

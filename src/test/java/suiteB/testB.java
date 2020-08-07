@@ -17,8 +17,8 @@ public class testB extends TestBase {
 
 	@Test
 	public void BtestB() {
-		log("Starting the browsser", "info");
-		log("Test passed","Pass");
+		log("Starting the browsser");
+		
 	}
 
 }

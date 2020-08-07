@@ -19,7 +19,7 @@ public class listener implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		System.out.println(result.getName()+" Passed");
 		ExtentTest test=(ExtentTest)result.getAttribute("reporter");
-		test.log(Status.PASS, "Test passed and logged in report");
+		test.log(Status.PASS, String.valueOf(result.getStatus()));
 
 	}
 
@@ -27,7 +27,7 @@ public class listener implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		System.out.println(result.getName()+" Failed");
 		ExtentTest test=(ExtentTest)result.getAttribute("reporter");
-		test.log(Status.FAIL, "Test Failed and logged in report");
+		test.log(Status.FAIL, result.getThrowable().getMessage());
 	}
 
 	@Override

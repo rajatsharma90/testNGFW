@@ -18,8 +18,8 @@ public class testCC extends TestBase {
 
 	@Test
 	public void CtestCC() {
-		log("Starting the browsser", "info");
-		log("Test failed","fail");
+		log("Starting the browsser");
+		logFailure("Test failed");
 
 	}
 }
